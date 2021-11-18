@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.7)
+project(game)
+set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_AUTOMOC ON)
+find_package(Qt5Widgets CONFIG REQUIRED)
+#file (GLOB_RECURSE CIR2_sceneview_src src/*.cpp src/*.h)
+add_executable(game src/main.cpp src/MainWindow.cpp src/MainWindow.h src/Stickman.cpp src/Stickman.h src/MainScene.cpp src/MainScene.h src/FirstWindow.cpp src/FirstWindow.h src/Leaderboard.cpp src/Leaderboard.h src/LeaderboardAfterGame.cpp src/LeaderboardAfterGame.h)
+target_link_libraries(game Qt5::Widgets)
