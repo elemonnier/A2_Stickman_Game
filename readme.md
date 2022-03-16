@@ -12,6 +12,6 @@ teleported at the beginning of the level!
 You can restart the level by pressing 'Restart Game'.
 Have fun!
 
-Game exhibit: https://youtu.be/vdIHTbLpPo0
+Game exhibit: https://youtu.be/rYl-Nb03sAg
 
 PS: Be careful of the last jump, it's almost frame-perfect!
